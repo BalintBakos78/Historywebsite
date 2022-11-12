@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Slab:wght@255&display=swap');
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+/* headings and logo */
+h1 ,h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    font-size: 260%;
+}

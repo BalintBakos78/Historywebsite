@@ -52,7 +52,7 @@ h1 ,h2 {
     color:white;
 }
 
-#menu a:hover{
+#menu a:hover {
     font-size: 120%;
     color: gray;
 }
@@ -71,14 +71,14 @@ h1 ,h2 {
     background-image: url('../image/1meszoly.jpg');
 }
  
-.page-header{
+.page-header {
 height: 600px;
 background: rgb(53, 53, 54) center 80% / cover no-repeat;
 margin: 0 auto;
 }
 
 /*introduction*/
-.intro{
+.intro {
 font-size: 130%;
 letter-spacing: 2px;
 padding: 20px;
@@ -97,20 +97,54 @@ color:rgb(255, 253, 253);
 footer {
     height: 200px;
     background-color: black;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0%;
 }
 
-.media-links{
+.media-links {
     color:white;
 text-align: center;
 }
 
-.media-links li{
+.media-links li {
     list-style: none;
     display: inline;  
 }
-.media-links i{
+.media-links i {
     font-size: 200%;
     margin: 3%;
     color: white;
 
+}
+
+/*history page*/
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#portrait {
+display: flex;
+justify-content: flex-start;
+height: 700px;
+width: auto;
+}
+
+.biography{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 55%;
+}
+
+hr {
+    border: 0 none;
+
+}
+
+#title {
+font-size: 400%;
 }

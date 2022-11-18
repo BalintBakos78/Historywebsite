@@ -236,3 +236,9 @@ justify-content: center;
     background-color: white;
     color: rgb(71, 41, 1);
 }
+
+/* The art Gallery*/
+
+.art-gallery {
+    font-size: 200%;
+}

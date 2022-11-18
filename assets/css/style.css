@@ -148,3 +148,14 @@ hr {
 #title {
 font-size: 400%;
 }
+
+/*paintings*/
+
+.video {
+display: flex;
+justify-content: center;
+}
+
+#dimscreen {
+    background-color: black;
+}

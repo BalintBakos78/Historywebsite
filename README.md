@@ -1,108 +1,154 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MÉSZÖLY GÉZA History Website
+The Mészöly Géza history website presents relevant information about the painters life and helps people get acquainted with the painters works.
+Users of this website will easy find the information they need with the help of the navigation menu, to navigate through the Home where they will find quick easy to process information about the painter, History more in depth about the Mészäly Géza’s life , Paintings where they will find a Youtube video with Mészöly Gézas painting,  and Contact for questions and where to find some of the paintings to look at. This site it directed at people interested about Mészöly Géza and his paintings .
+[click here for live website!](https://balintbakos78.github.io/Historywebsite_Project_1/)
 
-Welcome BalintBakos78,
+![Demonstates site Responsivness. ](assets/image/Mockup.png)
+<hr>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<hr>
 
-## Gitpod Reminders
+## Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### 1. Header
+- Featured on all pages includes with a nice Painting and contains The page Title
 
-`python3 -m http.server`
+![Header](assets/image/header.jpg)
 
-A blue button should appear to click: _Make Public_,
+### 2. Navigation Bar
 
-Another blue button should appear to click: _Open Browser_.
+- Featured on all pages includes links HOME, HISTORY, PAINTINGS, CONTACT pages to allow for easy navigation.
+- Allows the user to navigate between pages without the need to use the back button and has clear visual marker on which page they currently are on. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Nav bar ](assets/image/0fc66213243dde7ddaa0344b4ad352b4.png)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### 3. Landing Page
+- Short information about the painter and a painting of the Lake Balaton (One of his most known paintings.)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+![LandingSite](assets/image/Landingsite..jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### 4. Page footer
+- This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
+- This will allow the user to check the wikipedia, and social media Pages for the painter. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Footer](assets/image/Footer.png)
 
-------
+### 5. History Page
+- Allows the User to gather more information about the painter. 
 
-## Release History
+![History Page](assets/image/History.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### 6. Paintings Page
+- Allows the user to play a youtube video and to view the artworks of the painter.
+- Allow fullscreen is on and video won't autoplay. 
+- Video controls are disabled 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Paitings Page](assets/image/Paintings.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### 7. Contact Form
+- Allows the Use to contact the site owner with additional questions.
+  - First Name (required, type=text) <br>
+    Last Name (required, type=text) <br>
+    Email (required, type=email) <br>
+    Message (required, type=textarea)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    ![Form](assets/image/59d4eb94bc34bb94c9724296b323dbed.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### 8. Google Maps
+- Provides the User with a google map to the art gallery where they can find some of the paintings.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<hr>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Features Left to Implement
+- Message after submitting the contact form. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<hr>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies
+- HTML
+  - The structure of the Website was developed using HTML as the main language.
+- CSS
+  - The Website was styled using custom CSS in an external file.
+- GitHub
+  - Source code is hosted on GitHub and delpoyed using Git Pages.
+- Git
+  - Used to commit and push code during the development opf the Website
+- Font Awesome
+  - Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+- Tinyjpg
+  - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<hr>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Responsivness
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Steps to test:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. Open browser and navigate to Tacos Travels
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
 
-------
+Website was also opened on the following devices without any issue.:
 
-## FAQ about the uptime script
+Iphone 13 Pro (safari Browser)
+Samsung galaxy s21 (Chrome Browser)
+Desktop (Microsoft Edge Browser)
+Laptop (Chrome Browser)
+10" Tablet (Chrome Browser)
 
-**Why have you added this script?**
+### Lighthouse Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Lighthouse](assets/image/0034580d629f21912cb57d16bd8d6067.png)
 
-**How will this affect me?**
+### Accessibility
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- [Wave Accessibility](https://wave.webaim.org/). was used to check accessibility, 1 contrast error returned in the header.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Accessibility](assets/image/Accessibility.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Validator Testing
 
-**So….?**
+- HTML
+  - No errors were returned when passing through the official W3C validator
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- CSS
+  -  No errors were found when passing through the official (Jigsaw) validator
 
-**Can I opt out?**
+  <hr>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### - Deployment to Github Pages
+  - The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully.
 
-**Anything more?**
+<br>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The live link can be found here - https://balintbakos78.github.io/Historywebsite_Project_1/
 
----
+<hr>
 
-Happy coding!
+## Credits
+
+### Content
+- The text content on the history was taken from Budapest Actions website. https://budapestauction.com/geza-meszoly/painter
+- The implementation of display type flex was implemented by the help of the website flexboxfroggy [FlexBoxFroggy](https://flexboxfroggy.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+- Images were taken from the [Géza Mészöly Wikipedia page ](https://en.wikipedia.org/wiki/G%C3%A9za_M%C3%A9sz%C3%B6ly_%28painter%29) and [Wikimedia](https://commons.wikimedia.org/wiki/File:G%C3%A9za_M%C3%A9sz%C3%B6ly_Weite_Landschaft_im_Abendlicht_1877.jpg)
+- Youtube video from K A R O L A youtube channel [Mészöly Géza (1844-1887) ✽ Magyar festőművész](https://www.youtube.com/watch?v=7rOHg4kRF8c&t=5s)
